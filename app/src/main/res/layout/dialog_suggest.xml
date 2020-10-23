@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trimite o sugestie"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Propune o carte pe care nu ai găsit-o în listă și vrei să o adăugăm"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Titlu carte"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/sugestieTitlu"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Autor (opțional)"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/sugestieAutor"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Scurtă descriere (opțional)"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/sugestieDescriere"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Trimite"
+        android:textColor="#AAAAAA"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/sugestieTrimite"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

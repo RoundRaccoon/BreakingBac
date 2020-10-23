@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name_ro">Breaking Bac</string>
+    <string name="app_name_en">Breaking Bac</string>
+
+    <string name="c1">Action and Adventure</string>
+    <string name="c2">Art</string>
+    <string name="c3">Biographies</string>
+    <string name="c4">Children\'s</string>
+    <string name="c5">Drama</string>
+    <string name="c6">Fantasy</string>
+    <string name="c7">Health</string>
+    <string name="c8">History</string>
+    <string name="c9">Horror</string>
+    <string name="c10">Poetry</string>
+    <string name="c11">Religion</string>
+    <string name="c12">Romance</string>
+    <string name="c13">Science</string>
+    <string name="c14">SF</string>
+
+    <string name="creeazacont">Creează cont</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Descoperă</string>
+    <string name="title_dashboard">Activitate</string>
+    <string name="title_notifications">Profilul meu</string>
+    <string name="title_activity_login">Login</string>
+
+</resources>

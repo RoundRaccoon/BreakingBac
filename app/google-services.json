@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "853211752728",
+    "firebase_url": "https://cruciada256.firebaseio.com",
+    "project_id": "cruciada256",
+    "storage_bucket": "cruciada256.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853211752728:android:0d535fc9c1209615",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.cruciada256"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853211752728-l91oh12c6satk1ei11j9advbijvb43au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.cruciada256",
+            "certificate_hash": "42872f129ead094dce3c43b59c1d2c3a4ac834c4"
+          }
+        },
+        {
+          "client_id": "853211752728-q2cp91f9oa1vigdsaos588mnnlo3m4vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqk83STLFwys1l5Q_GzL9k46SH3ZJF-74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853211752728-q2cp91f9oa1vigdsaos588mnnlo3m4vd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

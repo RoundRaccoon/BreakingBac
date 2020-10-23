@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#329e21</color>
+    <color name="colorPrimaryDark">#257418</color>
+    <color name="colorAccent">#7fc274</color>
+    <color name="alb">#FFFFFF</color>
+    <color name="negru">#000000</color>
+    <color name="default_text">#AAAAAA</color>
+    <color name="progress">#95ce0e</color>
+    <color name="efect">#F1C40F</color>
+
+    <color name="colorPrimaryAlternate">#828AF7</color>
+    <color name="colorPrimaryDarkAlternate">#3945E4</color>
+
+</resources>

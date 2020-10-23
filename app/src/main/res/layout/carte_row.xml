@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/copertacarteview"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="nume"
+            android:id="@+id/numecarteview"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="autor"
+            android:id="@+id/autorcarteview"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bookauthor">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/steaplina"
+                    android:id="@+id/steacartecard1"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/steaplina"
+                    android:id="@+id/steacartecard2"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/steajuma"
+                    android:id="@+id/steacartecard3"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/steagoala"
+                    android:id="@+id/steacartecard4"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/steagoala"
+                    android:id="@+id/steacartecard5"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(1)"
+                    android:textSize="20dp"
+                    android:layout_gravity="start"
+                    android:id="@+id/numar_recenzii_carte_card"/>
+
+            </LinearLayout>
+
+            <ProgressBar
+
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:progressBackgroundTint="#1d2803"
+                android:progressTint="#95ce0e"
+                android:elevation="10dp"
+                android:layout_weight="100"
+                android:progress="50"
+                android:layout_marginTop="5dp"
+                android:id="@+id/progresListaCarti"
+                />
+
+            <!--
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="20dp"
+            android:id="@+id/capitol_total"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="20dp"
+            android:id="@+id/capitol_progres"/> -->
+
+    </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
